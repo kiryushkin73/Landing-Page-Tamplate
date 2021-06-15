@@ -1,0 +1,40 @@
+.Contacts {
+  text-align: center;
+  margin-top: 82px;
+  @media (max-width: 375px) {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    width: 276px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 29px;
+  }
+  .button {
+    display: inline-block;
+    padding: 13px 35px;
+    @include font_size_standart;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 85px;
+  }
+  span {
+    font-size: 1.4rem;
+    line-height: (17 / 14);
+    color: #828282;
+  }
+}
+.social_contacts {
+  width: 326px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}

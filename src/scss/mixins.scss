@@ -1,0 +1,15 @@
+// Fonts Mixins
+@mixin font_Bolt {
+  font-weight: 700;
+}
+@mixin font_Medium {
+  font-weight: 500;
+}
+@mixin font_size_standart {
+  font-size: 1.8rem;
+  line-height: (22 / 18);
+}
+@mixin font_size_h2 {
+  font-size: 3.4rem;
+  line-height: (42 / 34);
+}

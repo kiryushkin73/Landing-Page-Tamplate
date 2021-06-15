@@ -1,0 +1,25 @@
+.Skills {
+  text-align: center;
+  @media (max-width: 375px) {
+    width: 375px;
+  }
+  h2 {
+    margin-bottom: 69px;
+  }
+  p {
+    margin-bottom: 83px;
+  }
+}
+.Skills_image {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 222px;
+  @media (max-width: 375px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 165px;
+    gap: 81px;
+    margin-bottom: 179px;
+  }
+}

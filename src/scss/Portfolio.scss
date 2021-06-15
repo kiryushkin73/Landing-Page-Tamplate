@@ -1,0 +1,35 @@
+.Portfolio {
+  text-align: center;
+  background-color: rgb(247, 247, 247);
+  @media (max-width: 375px) {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    margin-bottom: 42px;
+    @media (max-width: 375px) {
+      width: 132px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  img {
+    display: block;
+    text-align: center;
+    width: 936px;
+    margin-bottom: 44px;
+    @media (max-width: 375px) {
+      width: 316px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  a {
+    display: inline-block;
+    @include font_size_standart;
+    color: $color_home;
+    text-decoration-line: underline;
+    margin-bottom: 99px;
+  }
+}
